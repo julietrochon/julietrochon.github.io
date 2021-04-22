@@ -1,0 +1,142 @@
+*, *,::before, *::after{
+    box-sizing: border-box;
+    font-family: "Courier New", Impact, "Arial Black", Arial, Verdana, sans-serif;
+    background: rgb(26, 26, 30);
+    color: white;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    color: azure;
+    padding-bottom: 100px;
+}
+
+.container{
+    display:flex;
+    width: 80%;
+    margin-top: 170px;
+    flex-direction:column;
+    align-items: center;
+    padding: 25px;
+}
+
+header {
+    position: fixed;
+    height: 150px;
+    width: 100%;
+  }
+
+header h1{
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+    background-color: rgb(26,26,30);
+}
+
+h2{
+    margin-bottom: 40px;
+    margin-top: -50px;
+}
+
+
+.picturesGender{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.picgender{
+    margin: 20px 100px;
+    padding: 20px;
+    height: 350px;
+}
+
+#picBoy:hover
+{
+    padding: 0px;
+}
+
+#picGirl:hover
+{
+    padding: 0px;
+}
+
+.pictures{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pictheme{
+    height: 400px;
+    padding: 10px;
+}
+
+#picgaming:hover{
+    padding: 0px;
+    background-color: rgb(175, 0, 0);
+}
+
+#piclifestyle:hover{
+    padding: 0px;
+    background-color: rgb(175, 0, 0);
+}
+
+#picculture:hover{
+    padding: 0px;
+    background-color: rgb(175, 0, 0);
+}
+
+.clavier{
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.lineTwo{
+    margin-left: 10px;
+}
+
+.lineThree{
+    margin-left: 20px;
+}
+
+
+.keyboard{
+    float: left;
+    width:50px;
+    height: 50px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(26, 26, 30);
+    padding: 5px 10px;
+    outline: none;
+}
+
+#btn_name{
+    width:250px;
+    margin-left: 120px;
+}
+
+#name{
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
