@@ -7,9 +7,11 @@ var barstat = document.getElementById('bar-stat');
 data = sessionStorage.getItem('point');
 end = sessionStorage.getItem('end');
 
+var point = 0;
+
 function DrawResult() {
 
-    var point = parseInt(data);
+    point = parseInt(data);
 
     if (end === "gameOne") {
         finalR = (point * 100) / 3;
@@ -32,7 +34,11 @@ function DrawResult() {
 
     let nbre = finalR + "%";
     var pos = document.documentElement;
+
+    
     pos.style.setProperty("--footer-size", nbre);
+
+
 
 
     success.innerText = finalR + " % success";
@@ -63,7 +69,7 @@ function DrawResult() {
 }
 
 playAgain.onclick = () => {
-    location.href = "first.html";
+    location.href = "index.html";
 }
 
 DrawResult();

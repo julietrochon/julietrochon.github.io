@@ -69,7 +69,7 @@ function getName() {
 
 function finish(){
     sessionStorage.setItem("name", yourName);
-    location.href = "index.html";
+    location.href = "index1.html";
 }
 
 function addA() {
